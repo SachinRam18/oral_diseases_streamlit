@@ -7,7 +7,7 @@ from PIL import Image
 st.set_page_config(layout="wide")
 
 # Path to the directory containing images
-image_dir = "C:\\Users\\Sachin\\Downloads\\oral_diseases_streamlit\\Calculus"  # Updated path
+image_dir = "Calculus"  # Updated path
 
 # Load images and create a DataFrame (replace this with actual labels if available)
 image_files = os.listdir(image_dir)
